@@ -4,8 +4,24 @@
   box-sizing: border-box;
 }
 
+footer {
+  background-color: rgb(182, 180, 180);
+}
+
 .log-img {
   width: 200px;
+}
+
+nav .nav-item a:hover {
+  background-color: aquamarine;
+}
+nav .nav-item a:hover .nav-link {
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  width: 100px;
+  display: block;
+  transition: 0.5s;
 }
 
 .slide {
@@ -16,29 +32,17 @@
   height: 65vh;
 }
 
-footer {
-  background-color: rgb(182, 180, 180);
-}
-
-.nav-item a:hover {
-  background-color: aquamarine;
-}
-
-.nav-link {
-  color: white;
-  text-transform: uppercase;
-  text-decoration: none;
-  width: 100px;
-  display: block;
-  transition: 0.5s;
-}
-
 .text-ind {
   text-align: center;
 }
 
 .form-contact {
   padding-left: 20px;
+}
+
+.btn-primary {
+  background: rgba(55, 230, 70, 0.822);
+  border-color: rgba(55, 230, 70, 0.822);
 }
 
 /*# sourceMappingURL=style.css.map */

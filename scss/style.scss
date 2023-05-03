@@ -1,42 +1,5 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-.log-img {
-  width: 200px;
-}
-
-.slide {
-  margin-top: 10px;
-}
-
-.slide img {
-  height: 65vh;
-}
-
-footer {
-  background-color: rgb(182, 180, 180);
-}
-
-.nav-item a:hover {
-  background-color: aquamarine;
-}
-
-.nav-link {
-  color: white;
-  text-transform: uppercase;
-  text-decoration: none;
-  width: 100px;
-  display: block;
-  transition: 0.5s;
-}
-
-.text-ind {
-  text-align: center;
-}
-
-.form-contact {
-  padding-left: 20px;
-}
+@import "variables";
+@import "globals";
+@import "navbar";
+@import "index";
+@import "contacto";
