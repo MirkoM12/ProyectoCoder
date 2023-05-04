@@ -1,8 +1,40 @@
 .form-contact {
   padding-left: 20px;
+
+  textarea {
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid $color-border;
+    font-size: 15px;
+    margin-bottom: 20px;
+    width: 100%;
+  }
 }
 
-.btn-primary {
-  background: $primary-color;
+.text-area {
+  border-radius: 10px;
+  padding: 7px;
+  border: 2px solid $color-border;
+  font-size: 14px;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+input[type="submit"] {
+  background-color: $primary-color;
+  color: #fff;
+  padding: 12px 18px;
+  margin-bottom: 15px;
+  border: $color-border;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+input[type="reset"] {
+  background-color: $color-border;
+  color: black;
+  padding: 10px;
   border-color: $primary-color;
+  border-radius: 2px;
+  font-size: 14px;
 }
